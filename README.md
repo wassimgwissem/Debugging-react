@@ -25,4 +25,4 @@
 4. Timer shows visibility duration
 
 ## DEBUGGING PROCESS
-After inspecting the component "Player" state in React DevTools , i noticed "showChild" was set to null instead of a boolean , which occured an issue in the conditional rendering.So, I fixed it by changing the code to always use boolean values with setShowChild(!showChild).Now the toggle works correctly.
+After inspecting the component "Player" state in React DevTools , i noticed "showChild" was set to null instead of a boolean value , which occured an issue in the conditional rendering.So, I fixed it by changing the code to always use boolean values with setShowChild(!showChild).Now the toggle works correctly.
